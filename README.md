@@ -14,7 +14,8 @@ npm -v
 # Get Start
 Install Angular CLI:
 ```
-npm install -g @angular/cli```
+npm install -g @angular/cli
+```
 Make sure your current user has the access to modify npm node_modules:
 ```
 sudo chown -R your_user /usr/local
