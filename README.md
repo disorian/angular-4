@@ -2,11 +2,17 @@ The [Angular CLI](https://cli.angular.io/) is a command line interface tool that
 
 Adhere to [Style Guide](https://angular.io/guide/styleguide) recommendations.
 
+Make sure you are running the latest node and npm. Check the version:
+```
+node -v```
+```
+npm -v```
+
 # Get Start
 Install Angular CLI:
 ```
-npm install -g @angular/cli`
-```
+npm install -g @angular/cli```
+## Create a new project
 Run the following command to generate a new project and skeleton application:
 ```
 ng new my-app
