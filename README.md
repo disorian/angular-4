@@ -4,14 +4,26 @@ Adhere to [Style Guide](https://angular.io/guide/styleguide) recommendations.
 
 Make sure you are running the latest node and npm. Check the version:
 ```
-node -v```
+node -v
 ```
-npm -v```
+
+```
+npm -v
+```
 
 # Get Start
 Install Angular CLI:
 ```
 npm install -g @angular/cli```
+Make sure your current user has the access to modify npm node_modules:
+```
+sudo chown -R your_user /usr/local
+```
+This will five the current user the write access to the local path where npm is
+using to install global packages.
+
+Find more: https://docs.npmjs.com/getting-started/fixing-npm-permissions
+
 ## Create a new project
 Run the following command to generate a new project and skeleton application:
 ```
